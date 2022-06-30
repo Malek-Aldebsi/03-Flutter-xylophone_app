@@ -19,7 +19,7 @@ class bodyApp extends StatefulWidget {
 }
 
 class _bodyAppState extends State<bodyApp> {
-  Expanded mainfun(int num, Color color) {
+  Expanded mainFun(int num, Color color) {
     return Expanded(
       child: MaterialButton(
         color: color,
@@ -40,13 +40,13 @@ class _bodyAppState extends State<bodyApp> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          mainfun(1, Colors.red),
-          mainfun(2, Colors.orange),
-          mainfun(3, Colors.yellow),
-          mainfun(4, Colors.green),
-          mainfun(5, Colors.greenAccent),
-          mainfun(6, Colors.blue),
-          mainfun(7, Colors.purple),
+          mainFun(1, Colors.red),
+          mainFun(2, Colors.orange),
+          mainFun(3, Colors.yellow),
+          mainFun(4, Colors.green),
+          mainFun(5, Colors.greenAccent),
+          mainFun(6, Colors.blue),
+          mainFun(7, Colors.purple),
         ],
       ),
     );
